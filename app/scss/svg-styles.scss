@@ -1,0 +1,31 @@
+.mail-icon {
+  fill: var(--color-text);
+  width: 60px;
+  height: 60px;
+}
+.phone-icon{
+  display: block;
+  fill: var(--color-text);
+  width: 60px;
+  height: 60px;
+}
+.telegram-icon{
+  fill: var(--color-text);
+  transition: 0.3s;
+  width: 60px;
+  height: 60px;
+}
+.icon-vk {
+  fill: var(--color-text);
+  transition: 0.3s;
+  width: 60px;
+  height: 60px;
+  &:hover {
+    fill: rgb(93, 108, 155);
+  }
+}
+.icon-github{
+  fill: var(--color-text);
+  width: 60px;
+  height: 60px;
+}
