@@ -1416,16 +1416,18 @@ button {
 
 .contactss {
   text-align: center;
-  padding: 15px;
-}
-.contactss__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  padding-bottom: 15px;
+}
+.contactss__wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1434,6 +1436,7 @@ button {
           align-items: center;
 }
 .contactss__item {
+  width: 50%;
   margin-top: 15px;
   position: relative;
 }
@@ -2536,6 +2539,15 @@ strong {
   height: 60px;
 }
 
+.whatsapp-icon {
+  fill: var(--color-text);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  width: 60px;
+  height: 60px;
+}
+
 .telegram-icon {
   fill: var(--color-text);
   -webkit-transition: 0.3s;
@@ -3156,6 +3168,13 @@ strong {
     -ms-grid-row-span: 2;
     grid-row: 10/12;
   }
+  .contactss__wrapper {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .contactss__wrapper .contactss__item {
+    width: auto;
+  }
 }
 @media (max-width: 730px) {
   .portfolio__wrapper {
@@ -3204,6 +3223,9 @@ strong {
     font-size: 40px;
     top: 5px;
     left: 0;
+  }
+  .contactss__wrapper .contactss__item {
+    width: 33.33333%;
   }
 }
 @media (max-width: 375px) {

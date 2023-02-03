@@ -370,6 +370,12 @@
       grid-row: 10/12;
     }
   }
+  .contactss__wrapper{
+    justify-content: space-around;
+    .contactss__item{
+      width: auto;
+    }
+  }
 }
 @media (max-width: 730px) {
   // .d-none730{
@@ -413,6 +419,11 @@
     font-size: 40px;
     top: 5px;
     left: 0;
+  }
+  .contactss__wrapper{
+    .contactss__item{
+      width: 33.33333%;
+    }
   }
 }
 @media (max-width: 375px) {
