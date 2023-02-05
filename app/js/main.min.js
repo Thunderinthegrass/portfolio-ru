@@ -143,6 +143,7 @@ function btnToTop() {
 }
 btnToTop();
 
+let count = 0;
 function scrollAnimation() {
   const animItems = document.querySelectorAll("._anim-items");
   if (animItems.length > 0) {

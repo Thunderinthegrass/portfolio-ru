@@ -1168,6 +1168,8 @@ a {
 .contacts .contact__icon-hover {
   position: absolute;
   top: 51px;
+  left: 50%;
+  transform: translateX(-50%);
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;

@@ -284,7 +284,6 @@
       background: $main-color;
       color: #fff;
       font-size: 1.3rem;
-      // background: rgb(64, 223, 215);
       mix-blend-mode: luminosity;
     }
   }
@@ -302,7 +301,7 @@
     top: 8px;
   }
   .about{
-    padding-top: 110px;
+    padding-bottom: 65px;
     &__title{
       padding-top: 50px;
       padding-left: 15px;
@@ -432,9 +431,6 @@
   }
   .header__text {
     top: 78%;
-  }
-  .form .form__button{
-    top: 115%;
   }
 }
 @media (max-width: 320px) {

@@ -19,7 +19,7 @@
   position: absolute;
   right: 15px;
   top: 15px;
-  z-index: 1;
+  z-index: 1000;
   cursor: pointer;
   transform: rotate(0deg);
   transition: 0.5s linear;
@@ -151,7 +151,6 @@
   z-index: 14;
   outline: none;
   -webkit-appearance: none;
-  // display: none;
   &__inner {
     position: relative;
     top: 0;

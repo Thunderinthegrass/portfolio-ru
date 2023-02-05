@@ -1,25 +1,40 @@
+.svg-sprite{
+  transition: .3s;
+}
 .mail-icon {
   fill: var(--color-text);
   width: 60px;
   height: 60px;
+  &:hover{
+    fill: #F54B4A;
+  }
 }
 .phone-icon{
   display: block;
   fill: var(--color-text);
   width: 60px;
   height: 60px;
+  &:hover{
+    fill: #1612e6;
+  }
 }
 .whatsapp-icon{
   fill: var(--color-text);
   transition: 0.3s;
   width: 60px;
   height: 60px;
+  &:hover{
+    fill: #1AD03F;
+  }
 }
 .telegram-icon{
   fill: var(--color-text);
   transition: 0.3s;
   width: 60px;
   height: 60px;
+  &:hover{
+    fill: #29A0DC;
+  }
 }
 .icon-vk {
   fill: var(--color-text);
@@ -34,4 +49,7 @@
   fill: var(--color-text);
   width: 60px;
   height: 60px;
+  &:hover{
+    fill: #000000;
+  }
 }

@@ -1,5 +1,3 @@
-console.log('Init!');
-
 // inputmask
 const form = document.querySelector('.form');
 // const telSelector = form.querySelector('input[type="tel"]');

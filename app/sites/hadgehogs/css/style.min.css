@@ -553,9 +553,6 @@ body {
 .header .dropdown__item:hover::after {
   width: 100%;
 }
-.header .dropdown__link {
-  cursor: url("../img/svg/ropdown-cursor.svg"), pointer;
-}
 
 .footer {
   max-width: 1920px;
